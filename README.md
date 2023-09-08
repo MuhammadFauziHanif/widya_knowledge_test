@@ -71,13 +71,7 @@ Before you begin, ensure you have met the following requirements:
    npx sequelize-cli db:migrate
    ```
 
-6. **Important: Create a `.env` file for your environment variables.**
-
-   ```env
-   JWT_SECRET=your-secret-key
-   ```
-
-7. Start the server:
+6. Start the server:
 
    ```bash
    npm start

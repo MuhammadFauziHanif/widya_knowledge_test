@@ -85,7 +85,7 @@ Before you begin, ensure you have met the following requirements:
 
 4. Set up your PostgreSQL database and configure the database connection in `config/config.json` and `.env`.
 
-   > Note: The `.env` file and `config/config.json` is provided for ease of use in development.
+   > Note: The `.env` file and `config/config.json` are provided for ease of use in development.
 
 5. Create the database tables by running migrations (if using Sequelize):
 

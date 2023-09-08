@@ -20,13 +20,13 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-api-project.git
+   git clone https://github.com/MuhammadFauziHanif/widya_knowledge_test.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-api-project
+   cd widya_knowledge_test
    ```
 
 3. Install the project dependencies:
@@ -46,13 +46,13 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-api-project.git
+   git clone https://github.com/MuhammadFauziHanif/widya_knowledge_test.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-api-project
+   cd widya_knowledge_test
    ```
 
 3. Install the project dependencies:
@@ -82,6 +82,9 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    npm start
    ```
+
+## Online Deployment
+https://widya-private-production.up.railway.app
 
 ## Usage
 

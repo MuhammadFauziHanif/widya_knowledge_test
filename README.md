@@ -100,7 +100,7 @@ Before you begin, ensure you have met the following requirements:
    ```
 
 ## Online Deployment
-https://widya-private-production.up.railway.app:3000
+https://widya-private-production.up.railway.app
 
 ## Usage
 

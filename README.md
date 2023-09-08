@@ -9,6 +9,28 @@ This is a RESTful API project that provides user registration, login, and profil
 - JWT authentication for protected routes
 - Fetch user profile data
 
+
+## Directory
+
+```dir
+├── app
+│   ├── controllers
+│   │   ├── authController.js
+│   │   ├── userController.js
+│   ├── models
+│   │   ├── User.js
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   ├── userRoutes.js
+├── config
+│   ├── db.js
+│   ├── jwt.js
+├── middleware
+│   ├── authMiddleware.js
+├── index.js
+```
+
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:

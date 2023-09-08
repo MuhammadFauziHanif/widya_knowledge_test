@@ -100,7 +100,8 @@ Before you begin, ensure you have met the following requirements:
    ```
 
 ## Online Deployment
-https://widya-private-production.up.railway.app
+https://widyaknowledgetest.up.railway.app
+> For online deployment, it is crucial to use HTTPS (secure communication). Accessing the live deployment of this project over HTTP (non-secure) may result in errors such as "Cannot GET /auth/register" or "Cannot GET /auth/login." To ensure a smooth experience, please make sure to use the secure HTTPS protocol when accessing the online deployment:
 
 ## Usage
 

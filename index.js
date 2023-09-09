@@ -1,10 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const app = express();
 const db = require('./config/db');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Routes
 const authRoutes = require('./app/routes/authRoutes');
@@ -22,6 +26,6 @@ db.authenticate()
     console.error('Error connecting to database:', err);
   });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('Server is running on port 3000');
 });

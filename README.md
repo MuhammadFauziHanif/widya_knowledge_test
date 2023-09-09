@@ -2,6 +2,15 @@
 
 This is a RESTful API project that provides user registration, login, and profile access functionality using Express.js, PostgreSQL for database storage, JWT (JSON Web Token) for authentication, and bcrypt for password hashing.
 
+## Online Deployment
+
+https://widyaknowledgetest.up.railway.app
+> For online deployment, it is crucial to use HTTPS (secure communication). Accessing the live deployment of this project over HTTP (non-secure) may result in errors such as "Cannot GET /auth/register" or "Cannot GET /auth/login." To ensure a smooth experience, please make sure to use the secure HTTPS protocol when accessing the online deployment:
+
+## Next.js Frontend Deployment
+
+The live deployment of this Next.js frontend can be accessed at: https://widya-nextjs-production.up.railway.app
+
 ## Features
 
 - User registration with email, name, gender, and password
@@ -98,10 +107,6 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    npm start
    ```
-
-## Online Deployment
-https://widyaknowledgetest.up.railway.app
-> For online deployment, it is crucial to use HTTPS (secure communication). Accessing the live deployment of this project over HTTP (non-secure) may result in errors such as "Cannot GET /auth/register" or "Cannot GET /auth/login." To ensure a smooth experience, please make sure to use the secure HTTPS protocol when accessing the online deployment:
 
 ## Usage
 
